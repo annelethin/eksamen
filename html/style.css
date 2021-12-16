@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: #B2AA9D;
@@ -35,29 +38,126 @@ body {
 
 .anne{
    width: 525px;
-   margin: -10px;
 }
 
-.textbox{
-    display: grid;
+.text-box{
+    position: absolute;
+    padding: 20px;
+    margin: 55px;
+    margin-top: -3rem;
+    border: 3px;
+    border-style:solid;
+    border-color: #B4BFB4;
+    background-color: #B4BFB4;
+    color: #ffff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
 
 }
 
 .overskrift{
     color: #8C3B4A;
     text-align: center;
-    
+    margin-top: 5rem;
 }
 
 .moonshine{
-    margin: auto;
-    width: 400px;
+    margin: 15px;
+    width: 350px;
     align-items: center;
-    margin: 60px;
+}
+
+.moonshine-hojskole{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.zealand{
+    margin: 15px;
+    width: 350px;
+    align-items: center;
+}
+
+.zealand-ballet{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.happyfeet{
+    margin: 15px;
+    width: 350px;
+    align-items: center;
+}
+
+.happy{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
 }
 
 
-.kontakt{
+.groenvilje{
+    margin: 15px;
+    width: 350px;
+    align-items: center;
+    }
+
+.groen{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.profil{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.anneprofil{
+    position: relative;
+    align-items: center;
+    margin: 20px 70px 40px 70px;
+    
+}
+
+
+footer{
+    margin: 13;
+    padding: 10px;
     background-color: #B4BFB4;
-
+    color: #8C3B4A;
+    text-align: center;
 }
+
+.contact{
+    font-weight: bold;
+    margin: 10px;
+}
+
+.info{
+    margin: px;
+}
+
+
+.socialmedia{
+    margin: 13px;
+    padding: 10px 70px;
+    align-items: center;
+    display: flex;
+}
+
+.facebook{
+    margin-right: 10px;
+}
+
+.linkedin{
+    margin-left: 10px;
+}
+
