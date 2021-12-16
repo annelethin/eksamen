@@ -37,10 +37,13 @@ body {
 }
 
 .anne{
-   width: 525px;
+   width: 100%;
+   height: 500px;
+   object-fit: cover;
 }
 
 .text-box{
+    width: auto;
     position: absolute;
     padding: 20px;
     margin: 55px;
@@ -64,10 +67,12 @@ body {
 }
 
 .moonshine{
-    margin: 15px;
-    width: 350px;
-    align-items: center;
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
 }
+
 
 .moonshine-hojskole{
     font-size: 20px;
@@ -76,10 +81,12 @@ body {
 
 }
 
-.zealand{
-    margin: 15px;
-    width: 350px;
-    align-items: center;
+.ballet{
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    
 }
 
 .zealand-ballet{
@@ -89,10 +96,12 @@ body {
 }
 
 .happyfeet{
-    margin: 15px;
-    width: 350px;
-    align-items: center;
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
 }
+
 
 .happy{
     font-size: 20px;
@@ -102,9 +111,10 @@ body {
 
 
 .groenvilje{
-    margin: 15px;
-    width: 350px;
-    align-items: center;
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
     background-image: url(img/groenvilje.png);
     }
 
@@ -122,11 +132,14 @@ body {
 }
 
 .anneprofil{
-    position: relative;
-    align-items: center;
-    margin: 20px 70px 40px 70px;
-    
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+    
+    
 
 
 footer{
@@ -172,10 +185,10 @@ footer{
 /*Ny side - rumrejsen*/
 
 .moon{
-    margin: 15px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
     margin-top: 50px;
-    width: 350px;
-    align-items: center;
 }
 
 .overskrift2{
@@ -197,31 +210,109 @@ footer{
 /*Ny side - Zealand Ballet*/
 
 .zealand{
-    margin: 15px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
     margin-top: 50px;
-    width: 350px;
-    align-items: center;
 }
 
 /*Ny side - Happy Feet */
 .happy2{
     margin: 13px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
     margin-top: 50px;
-    width: 350px;
-    align-items: center;
 }
 
 /*Ny side - Grøn Vilje*/
 
 .groen2{
-    margin: 15px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
     margin-top: 50px;
-    width: 350px;
-    align-items: center;
 
 }
 
-/*media*/
+/*media queries*/
+@media screen and (min-width: 395px) {
+    
+    
+}
+
+@media screen and (min-width: 500px) {
+    .navigation ul {
+        width: 100%;
+        position: relative;
+        z-index: 5;
+        text-align: center;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+
+    .anne{
+        margin-top: -70px;
+    }
+
+    .moon{
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    
+    .groen2{
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+}
+    .text-box{
+      width: 75%;
+      position: absolute;
+      margin-right: 5rem;
+      margin-left: 4rem;
+      padding-right: 10px;
+      margin-top: -50px;
+      border: 3px;
+      
+    
+
+    
 
 
 
+}
+
+
+@media screen and (min-width: 700px) {
+    .groen2{
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    
+}
+
+@media screen and (min-width: 740px) {
+    .groen2{
+        width: 60%;
+        display: block;
+        padding: 20px;
+    margin: 55px;
+    margin-top: -10rem;
+    border: 3px;
+    border-style:solid;
+   
+   
+   
+}
+
+@media screen and (min-width: 970px) {
+    .groen2{
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
