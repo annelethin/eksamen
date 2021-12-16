@@ -130,7 +130,6 @@ body {
 
 
 footer{
-    margin: 13;
     padding: 10px;
     background-color: #B4BFB4;
     color: #8C3B4A;
@@ -189,6 +188,12 @@ footer{
 
 }
 
+.profil2{
+    font-size: 20px;
+    padding: 13px;
+    margin-bottom: 2rem;
+}
+
 .rumrejsenfooter{
     position: relative;
     padding: 20px;
@@ -196,8 +201,26 @@ footer{
     text-align: center;
 }
 
+
+
+/*Ny side - Zealand Ballet*/
+
+.zealand{
+    margin: 15px;
+    margin-top: 50px;
+    width: 350px;
+    align-items: center;
+}
+
 .profil2{
     font-size: 20px;
     padding: 13px;
     margin-bottom: 2rem;
+}
+
+.zealandfooter{
+    position: relative;
+    padding: 50px;
+    background-color: #B4BFB4;
+    text-align: center;
 }
