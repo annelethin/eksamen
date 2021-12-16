@@ -194,15 +194,6 @@ footer{
     margin-bottom: 2rem;
 }
 
-.rumrejsenfooter{
-    position: relative;
-    padding: 20px;
-    background-color: #B4BFB4;
-    text-align: center;
-}
-
-
-
 /*Ny side - Zealand Ballet*/
 
 .zealand{
@@ -212,23 +203,25 @@ footer{
     align-items: center;
 }
 
-.profil2{
-    font-size: 20px;
-    padding: 13px;
-    margin-bottom: 2rem;
-}
-
-.zealandfooter{
-    position: relative;
-    padding: 50px;
-    background-color: #B4BFB4;
-    text-align: center;
-}
-
 /*Ny side - Happy Feet */
-.happyfeet{
-    margin: 15px;
+.happy2{
+    margin: 13px;
     margin-top: 50px;
-    width: -1000px;
+    width: 350px;
     align-items: center;
 }
+
+/*Ny side - Grøn Vilje*/
+
+.groen2{
+    margin: 15px;
+    margin-top: 50px;
+    width: 350px;
+    align-items: center;
+
+}
+
+/*media*/
+
+
+
