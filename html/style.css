@@ -224,3 +224,11 @@ footer{
     background-color: #B4BFB4;
     text-align: center;
 }
+
+/*Ny side - Happy Feet */
+.happyfeet{
+    margin: 15px;
+    margin-top: 50px;
+    width: -1000px;
+    align-items: center;
+}
