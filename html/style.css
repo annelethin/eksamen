@@ -1,10 +1,11 @@
-*{
+* {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -36,20 +37,20 @@ body {
     font-size: 20px;
 }
 
-.anne{
-   width: 100%;
-   height: 500px;
-   object-fit: cover;
+.anne {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
 }
 
-.text-box{
+.text-box {
     width: auto;
     position: absolute;
     padding: 20px;
     margin: 55px;
     margin-top: -3rem;
     border: 3px;
-    border-style:solid;
+    border-style: solid;
     border-color: #B4BFB4;
     background-color: #B4BFB4;
     color: #ffff;
@@ -60,13 +61,13 @@ body {
 
 }
 
-.overskrift{
+.overskrift {
     color: #8C3B4A;
     text-align: center;
     margin-top: 5rem;
 }
 
-.moonshine{
+.moonshine {
     width: 85%;
     display: block;
     margin: 0 auto;
@@ -74,28 +75,28 @@ body {
 }
 
 
-.moonshine-hojskole{
+.moonshine-hojskole {
     font-size: 20px;
     padding: 10px;
     margin: 20px;
 
 }
 
-.ballet{
+.ballet {
     width: 85%;
     display: block;
     margin: 0 auto;
     margin-top: 50px;
-    
+
 }
 
-.zealand-ballet{
+.zealand-ballet {
     font-size: 20px;
     padding: 10px;
     margin: 20px;
 }
 
-.happyfeet{
+.happyfeet {
     width: 85%;
     display: block;
     margin: 0 auto;
@@ -103,102 +104,103 @@ body {
 }
 
 
-.happy{
+.happy {
     font-size: 20px;
     padding: 10px;
     margin: 20px;
 }
 
 
-.groenvilje{
+.groenvilje {
     width: 85%;
     display: block;
     margin: 0 auto;
     margin-top: 50px;
     background-image: url(img/groenvilje.png);
-    }
+}
 
-.groen{
+.groen {
     font-size: 20px;
     padding: 10px;
     margin: 20px;
 }
 
-.ommig{
+.ommig {
     color: #8C3B4A;
     text-align: center;
     margin-top: 5rem;
 
 }
-.profil{
+
+.profil {
     font-size: 20px;
     padding: 10px;
     margin: 10px;
 
 }
 
-.anneprofil{
+.anneprofil {
     width: 50%;
     display: block;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-    
-    
 
 
-footer{
+
+
+footer {
     padding: 10px;
     background-color: #B4BFB4;
     color: #8C3B4A;
     text-align: center;
-    
+
 }
 
-.contact{
+.contact {
     font-weight: bold;
     margin: 10px;
 }
 
-.info{
+.info {
     margin: 13px;
 }
 
-.facebook{
+.facebook {
     width: 75px;
     padding: 10px;
     margin: 2px;
-    
+
 
 }
 
 
-.instagram{
+.instagram {
     width: 75px;
     padding: 10px;
     margin: 2px;
-    
-  
+
+
 }
 
-.linkedin{
+.linkedin {
     width: 75px;
     padding: 10px;
     margin: 2px;
-    
+
 }
 
 /*Ny side - rumrejsen*/
 
-.moon{
+.moon {
     width: 100%;
     display: block;
     margin: 0 auto;
     margin-top: 50px;
 }
 
-.overskrift2{
+.overskrift2 {
     color: #8C3B4A;
     text-align: center;
     margin-top: 2rem;
@@ -208,7 +210,7 @@ footer{
 
 }
 
-.profil2{
+.profil2 {
     font-size: 20px;
     padding: 13px;
     margin-bottom: 2rem;
@@ -216,7 +218,7 @@ footer{
 
 /*Ny side - Zealand Ballet*/
 
-.zealand{
+.zealand {
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -224,7 +226,7 @@ footer{
 }
 
 /*Ny side - Happy Feet */
-.happy2{
+.happy2 {
     margin: 13px;
     width: 100%;
     display: block;
@@ -234,7 +236,7 @@ footer{
 
 /*Ny side - Grøn Vilje*/
 
-.groen2{
+.groen2 {
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -255,11 +257,11 @@ footer{
         justify-content: space-evenly;
     }
 
-    .anne{
+    .anne {
         margin-top: -70px;
     }
 
-    .text-box{
+    .text-box {
         width: 75%;
         position: absolute;
         margin-right: 5rem;
@@ -267,52 +269,53 @@ footer{
         padding-right: 10px;
         margin-top: -50px;
         border: 3px;
-    }  
-    
-    
-    .moon{
+    }
+
+
+    .moon {
         width: 80%;
         display: block;
         margin: 0 auto;
         margin-top: 50px;
     }
 
-    
-    .zealand{
+
+    .zealand {
         width: 80%;
         display: block;
         margin: 0 auto;
         margin-top: 50px;
     }
 
-    .ommig{
+    .ommig {
         font-size: 30px;
         margin-bottom: 10px;
         margin-top: 10px;
     }
 
-    .profil{
+    .profil {
         margin: 25px;
     }
 
-    .happy2{
+    .happy2 {
         width: 80%;
         display: block;
         margin: 0 auto;
         margin-top: 50px;
     }
-    
-     .groen2{
+
+    .groen2 {
         width: 80%;
         display: block;
         margin: 0 auto;
-        margin-top: 50px;}
+        margin-top: 50px;
+    }
 }
 
 
 @media screen and (min-width: 700px) {
 
-    .text-box{
+    .text-box {
         width: 75%;
         position: absolute;
         margin-right: 5rem;
@@ -321,46 +324,49 @@ footer{
         margin-top: -100px;
         border: 3px;
         font-size: 40px;
-       
-    }  
 
-    .overskrift{
-       font-size: 40px;
-       padding-top: 60px;
-       padding-bottom: 10px ;
     }
 
-    .moonshine{
+    .overskrift {
+        font-size: 40px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+
+    .moonshine {
         width: 85%;
         display: block;
         margin: 0 auto;
         margin-top: 50px;
-       
-        
+
+
     }
-    .moonshine-hojskole{
-        font-size: 20px;
-        margin: 50px;
-        margin-top: 10px;
-    }
-    .zealand-ballet{
-       font-size: 20px;
-       margin: 50px;
-       margin-top: 10px;
-    }
-    .happy{
-        font-size: 20px;
-        margin: 50px;
-        margin-top: 10px;
-    }
-    
-    .groen{
+
+    .moonshine-hojskole {
         font-size: 20px;
         margin: 50px;
         margin-top: 10px;
     }
 
-    .profil{
+    .zealand-ballet {
+        font-size: 20px;
+        margin: 50px;
+        margin-top: 10px;
+    }
+
+    .happy {
+        font-size: 20px;
+        margin: 50px;
+        margin-top: 10px;
+    }
+
+    .groen {
+        font-size: 20px;
+        margin: 50px;
+        margin-top: 10px;
+    }
+
+    .profil {
         font-size: 20px;
         margin: 50px;
         margin-top: 10px;
@@ -373,11 +379,12 @@ footer{
     .navigation li a {
         font-size: 30px;
     }
-    .anne{
+
+    .anne {
         margin-top: -5rem;
     }
-   
-    .text-box{
+
+    .text-box {
         width: 75%;
         position: absolute;
         margin-right: 9rem;
@@ -386,78 +393,80 @@ footer{
         margin-top: -100px;
         border: 3px;
         font-size: 40px;
-       
-    }  
 
-    .overskrift{
-       font-size: 40px;
-       padding-top: 100px;
-       padding-bottom: 40px ;
     }
 
-    .moonshine{
+    .overskrift {
+        font-size: 40px;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .moonshine {
         width: 70%;
         display: block;
         margin: 0 auto;
         margin-top: 50px;
     }
-    .moonshine-hojskole{
+
+    .moonshine-hojskole {
         font-size: 25px;
         padding-top: 6rem;
         margin-left: -4rem;
     }
-    
-    .ballet{
+
+    .ballet {
         width: 70%;
-    }
-    
-    .zealand-ballet{
-       font-size: 25px;
-       padding-top: 7rem;
-       margin-left: -4rem;
     }
 
-    .happyfeet{
+    .zealand-ballet {
+        font-size: 25px;
+        padding-top: 7rem;
+        margin-left: -4rem;
+    }
+
+    .happyfeet {
         width: 70%;
     }
-    .happy{
+
+    .happy {
         font-size: 25px;
         padding-top: 5rem;
         margin-left: -4rem;
     }
 
-    .groenvilje{
+    .groenvilje {
         width: 70%;
     }
-    
-    .groen{
+
+    .groen {
         font-size: 25px;
         padding-top: 4rem;
         margin-left: -4rem;
     }
-        
 
-    .ommig{
+
+    .ommig {
         font-size: 40px;
         padding-top: 100px;
         padding-bottom: 40px;
         display: block;
     }
 
-    .profil{
+    .profil {
         font-size: 30px;
         margin: 50px;
         margin-top: 10px;
         margin-left: 5rem;
     }
 
-    
 
-    .gridcontainer{
+
+    .gridcontainer {
         display: grid;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(2, 1fr);
-       
+
     }
 
     .profil-centent {
@@ -466,12 +475,13 @@ footer{
         justify-content: center;
         align-items: center;
     }
+
     .profil-centent img {
         display: block;
         margin-left: 6rem;
         width: 65%;
-        
-       
+
+
     }
 
-}      
+}
