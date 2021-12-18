@@ -141,7 +141,8 @@ body {
 .ommig {
     color: #8C3B4A;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: -10px;
+    margin-bottom: 20px;
 
 }
 
@@ -149,11 +150,12 @@ body {
     font-size: 20px;
     padding: 10px;
     margin: 10px;
+   
 
 }
 
 .anneprofil {
-    width: 50%;
+    width: 100%;
     display: block;
     margin: 0 auto;
     margin-top: 50px;
