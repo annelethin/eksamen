@@ -1,5 +1,10 @@
+/*kilder: https://developer.mozilla.org/en-US/ , https://www.w3schools.com/html/default.asp https://leannezhang.medium.com/difference-between-css-position-absolute-versus-relative-35f064384c6 https://www.youtube.com/watch?v=P6UgYq3J3Qs https://quirksmode.org/css/css2/display.html https://css-tricks.com*/
+
+/* 1rem = 10px*/
+
 * {
     overflow-x: hidden;
+    /* sletter alt rest fra højre, så man ikke kan scrolle sidelænds*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,12 +23,15 @@ body {
     width: 100%;
     background: transparent;
     position: absolute;
+    /*https://leannezhang.medium.com/difference-between-css-position-absolute-versus-relative-35f064384c6 , https://www.youtube.com/watch?v=P6UgYq3J3Qs*/
     z-index: 5;
+    /* Angiver rækkefølgen af et element. Virkr kun på et positionerede element eks. position:absolute, relativ, el. sticky*/
     text-align: center;
 }
 
 .navigation li {
     display: inline;
+    /*https://quirksmode.org/css/css2/display.html*/
 }
 
 .navigation li a {
@@ -31,6 +39,7 @@ body {
     padding: 10px 10px;
     margin: 10px 10px;
     display: inline-block;
+    /* Får Nav-bar til at stå på linje*/
     background: transparent;
     color: #8C3B4A;
     text-align: center;
@@ -39,8 +48,10 @@ body {
 
 .anne {
     width: 100%;
+    /* Strækker dig mig skærm størrelsen*/
     height: 500px;
     object-fit: cover;
+    /* Billedet fylder det hele*/
 }
 
 .text-box {
@@ -51,6 +62,7 @@ body {
     margin-top: -3rem;
     border: 3px;
     border-style: solid;
+    /* visning af en enkelt, lige og ubrudt linje.*/
     border-color: #B4BFB4;
     background-color: #B4BFB4;
     color: #ffff;
@@ -70,6 +82,7 @@ body {
 .moonshine {
     width: 85%;
     display: block;
+    /*Elementet vises som en blok, afsnit eller. En blok har et mellemrum over og under sig. det er altid 100% af skærmstørrelsen*/
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -228,8 +241,8 @@ footer {
 
 /*Ny side - Happy Feet */
 .happy2 {
-    margin: 13px;
     width: 100%;
+    margin: 13px;
     display: block;
     margin: 0 auto;
     margin-top: 50px;
@@ -255,7 +268,9 @@ footer {
         text-align: center;
         display: flex;
         flex-wrap: nowrap;
+        /* Alle flex elementer vil være på række. Kilde: https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
         justify-content: space-evenly;
+        /* Fordelt så afstanden er ens. Kilde: https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
     }
 
     .anne {
@@ -461,16 +476,13 @@ footer {
         margin-left: 5rem;
     }
 
-
-
     .gridcontainer {
         display: grid;
-        grid-template-rows: repeat(3, 1fr);
+        /* Definerer hvilken række eller kolonne et element vil blive vist på. Kilde: https://css-tricks.com/snippets/css/complete-guide-grid/*/
+        grid-template-rows: repeat(4, 1fr);
         grid-template-columns: repeat(2, 1fr);
 
     }
-
-
 
     .anneprofil {
         width: 25%;

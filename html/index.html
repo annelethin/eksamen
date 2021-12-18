@@ -1,3 +1,5 @@
+<!--Kilder: https://developer.mozilla.org/en-US/ , https://www.w3schools.com/html/default.asp https://leannezhang.medium.com/difference-between-css-position-absolute-versus-relative-35f064384c6-->
+
 <!DOCTYPE html>
 <html lang="da">
 
@@ -16,19 +18,21 @@
         <nav class="navigation">
             <ul class="nav-ul">
                 <li><a href="#portfolio">Portfolio</a></li>
+                <!--# = Skal gives til et ID for at kunne scrolle ned til den side man gerne vil til-->
                 <li><a href="#ommig">Om mig</a></li>
                 <li><a href="#kontakt">Kontakt</a></li>
             </ul>
         </nav>
         <img src="img/anne.png" alt="anne" class="anne">
     </header>
-
+    <!--Repræsenterer den del af af min side der kun er indirekte relateret til det overordenede emne. Kilde: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside-->
     <aside class="text-box">
         <p>Anne Lethin<br>Multimediedesigner</p>
     </aside>
 
-    <section>
-        <h1 id="portfolio" class="overskrift"> Portfolio</h1>
+    <section id="portfolio">
+        <!--ID'et får siden til at scolle ned. For at få det smooth ændres dette i css'en til scroll-behavior: smooth;. Kilde: https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior-->
+        <h1 class="overskrift"> Portfolio</h1>
         <div class="gridcontainer">
 
             <a href="rumrejsen.html"><img src="img/moonshine.png" alt="moonshine" class="moonshine"></a>
@@ -62,18 +66,18 @@
 
     <section id="ommig" class="ommig">
         <h1 class="overskrift">Om mig</h1>
-            <div class="anneprofil"> <img src="img/anneprofil.png" alt="anne"></div>
-            <p class="profil"> En kvinde der sprudler af god energi, er vellidt og smilende.
-                <br>
-                <br>
-                Som multimediedesign studerene er jeg altid åben overfor nye ideer, som jeg også selv er fuld af.
-                Jeg fungerer godt i grupper, men jeg arbejder også rigtig godt selvstændigt.
+        <div class="anneprofil"> <img src="img/anneprofil.png" alt="anne"></div>
+        <p class="profil"> En kvinde der sprudler af god energi, er vellidt og smilende.
+            <br>
+            <br>
+            Som multimediedesign studerene er jeg altid åben overfor nye ideer, som jeg også selv er fuld af.
+            Jeg fungerer godt i grupper, men jeg arbejder også rigtig godt selvstændigt.
 
-                En kollega der er ansvarsbevidst, nysgerrig og kan kan lide at gå i dyben med et stykke arbejde.
-                <br>
-                <br>
-                Derudover kan jeg spille med flere bolde og elsker at yde en god service,
-                så jeg får kunder samt kollegaer til at smile og en god oplevelse med på vejen.</p>
+            En kollega der er ansvarsbevidst, nysgerrig og kan kan lide at gå i dyben med et stykke arbejde.
+            <br>
+            <br>
+            Derudover kan jeg spille med flere bolde og elsker at yde en god service,
+            så jeg får kunder samt kollegaer til at smile og en god oplevelse med på vejen.</p>
 
 
         </div>
@@ -91,12 +95,14 @@
             <br>
             +45 28 91 76 24</p>
         <p class="contact">Eller find mig på de sociale medier</p>
+        <!--target=_blank får sider til at åbne i en ny fane. I dette tilfælde SoMe knapperne-->
         <a href="https://www.facebook.com/annelethin" target="_blank"><img src="img/facebook-logo-button.svg"
                 alt="facebook-logo" class="facebook"></a>
         <a href="https://www.instagram.com/arnspiff/" target="_blank"><img src="img/instagram-logo.svg"
                 alt="instagram-logo" class="instagram"></a>
         <a href="https://www.linkedin.com/in/anne-lethin-36533b220/" target="_blank"> <img
                 src="img/linkedin-logo-button.svg" alt="linkedin-logo" class="linkedin"></a>
+        <!--SoMeknapper kilde: https://www.pngfind.com-->
     </footer>
 
 </body>
